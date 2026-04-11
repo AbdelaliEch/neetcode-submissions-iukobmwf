@@ -7,3 +7,6 @@ class Solution:
                 return [my_dict[difference], i]
             else:
                 my_dict[nums[i]] = i
+
+# Time: O(n)
+# Space: O(n)
