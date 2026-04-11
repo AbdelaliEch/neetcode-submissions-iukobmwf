@@ -13,3 +13,7 @@ class Solution:
             if my_dict1[letter] != my_dict2.get(letter, 0):
                 return False
         return True
+
+
+# Time: O(n)
+# Space: O(n)
