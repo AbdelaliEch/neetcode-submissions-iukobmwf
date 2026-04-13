@@ -6,4 +6,6 @@ class Solution:
                 if prices[j] - prices[i] > maxprofit:
                     maxprofit = prices[j] - prices[i]
         return maxprofit
-    
+
+# time: O(n**2)
+# space: O(1)
