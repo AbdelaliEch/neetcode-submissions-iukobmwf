@@ -13,4 +13,5 @@ class Solution:
 
         return maxprofit
         
-    
+# time: O(n)
+# space: O(1)
