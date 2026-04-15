@@ -17,3 +17,7 @@ class Solution:
             i += 1
             c = c.next
         return False
+
+
+# time: O(n)
+# space: O(n)
