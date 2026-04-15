@@ -14,3 +14,13 @@ class Solution:
             if fast_pointer == slow_pointer:
                 return True
         return False
+
+# Floyd's cycle detection algorithm:
+# Floyd's cycle detection: slow moves 1 step, fast moves 2 steps.
+# If no cycle, fast reaches None.
+# If cycle exists, once both pointers are inside the cycle,
+# fast gains 1 step on slow per iteration.
+# The gap shrinks by 1 each time until it reaches 0 → they meet.
+        
+# time: O(n)
+# space: O(1)
