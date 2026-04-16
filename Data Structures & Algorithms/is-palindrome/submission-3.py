@@ -5,3 +5,6 @@ class Solution:
             if c.isalnum():
                 new_s += c.lower()
         return new_s == new_s[::-1]
+
+# time: O(n)
+# space: O(n) for new_s
