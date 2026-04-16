@@ -14,3 +14,6 @@ class Solution:
             else:
                 return middle
         return -1   
+
+# space: O(1)
+# time: O(logn)
