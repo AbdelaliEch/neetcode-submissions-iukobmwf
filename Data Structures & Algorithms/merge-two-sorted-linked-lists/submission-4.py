@@ -23,4 +23,6 @@ class Solution:
             c.next = list2
 
         return result.next
-            
+
+# Time: O(m + n) / O(max(n,m)): m length of list1, n length of list2
+# Space: O(1), only created one node, constant space <=> O(1)
