@@ -14,3 +14,6 @@ class Solution:
             i += 1
             j -= 1
         return True
+
+# time: O(n)
+# space: O(1)
