@@ -17,3 +17,5 @@ class Solution:
         head = prev
         return head
         
+# time: O(n)
+# space: O(1)
