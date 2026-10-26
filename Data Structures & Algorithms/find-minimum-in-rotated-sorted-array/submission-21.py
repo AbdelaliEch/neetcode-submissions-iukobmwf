@@ -1,0 +1,24 @@
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        left, right = 0, len(nums) - 1
+        while left < right:
+            middle = (left + right) // 2
+            if nums[middle] < nums[right]:
+                right = middle
+            else:
+                left = middle + 1
+        return nums[left]
+# time: O(logn)
+# space: O(1)
+
+
+
+
+# now we need some if statements that will determine where the minimum is: to the right or to the left?
+# the array is divided into two sorted halves
+
+
+# [3 4 5 6 1 2] = [3 4 5 6] [1 2]
+# middle is 5
+
+
